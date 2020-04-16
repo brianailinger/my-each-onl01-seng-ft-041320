@@ -3,6 +3,7 @@ def my_each(arr)
   while i < arr.length 
   yield (arr[i])
   i += 1 
-  end# put argument(s) here
-  # code here
+  end
+  arr 
 end
+  
